@@ -13,7 +13,7 @@ export default {
 
 <template>
  <h1>Contador</h1>
-    <p>{{count}}</p>
+    <p>{{count}} <sup>2</sup> = {{ count*count }}</p>
   <button @click="count++">Count is: {{ count }}</button>
 </template>
 
